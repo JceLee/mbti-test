@@ -3,7 +3,7 @@ import AuthForm from "../components/AuthForm";
 import { register } from "../api/auth";
 import { Link, useNavigate } from "react-router-dom";
 
-const Signup = () => {
+const SignUp = () => {
   const navigate = useNavigate();
 
   const handleSignup = async (formData) => {
@@ -36,4 +36,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
